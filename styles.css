@@ -1,0 +1,157 @@
+body {
+    font-family: 'Roboto', sans-serif;
+   display: flex;
+   flex-flow: column nowrap;
+}
+
+.header {
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+}
+li {
+    list-style-type: none;
+}
+
+.tile1 {
+    display: flex;
+    color: #e5e7eb;
+    padding: 100px;
+    justify-content:space-around;
+    gap: 10px;
+}
+
+.tile1-title {
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.tile1-text {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+.tile1-content {
+    font-size: 18px;
+}
+
+.frontimg {
+    display: flex;
+}
+
+.image {
+    max-width: 500px;
+    height: auto;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border:2px solid #e5e7eb;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 130px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.tile2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.tile2-title {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
+}
+
+.cardimg {
+    max-width: 150px;
+    height: auto;
+}
+
+.tile3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    
+}
+
+.tile3-content {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.tile3-quote {
+    display: flex;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.tile4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile4-text {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    flex-direction: column;
+    margin: 80px;
+    padding: 50px;
+    width: 800px;
+}
+
+.tile4-title {
+    font-weight:bolder;
+}
+
+.footer {
+    display: flex;
+}
+
+.header,
+.tile1,
+.footer {
+    background-color: #1f2937;
+}
+
+.tile3 {
+    background-color: #e5e7eb;
+}
